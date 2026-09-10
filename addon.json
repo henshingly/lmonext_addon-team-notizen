@@ -1,0 +1,31 @@
+{
+    "name": "team-notizen",
+    "version": "1.1.0",
+    "type": "admin",
+    "description": {
+        "de": "Team-Notizen: Gruendung, Stadion, Vereinsfarben, Erfolge, Infotext und Trainer-Historie pro Team pflegen und im Frontend anzeigen.",
+        "en": "Team notes: founding, stadium, club colours, achievements, info text and coach history per team, with frontend display."
+    },
+    "author": "Torsten Hofmann",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/webfalter/team-notizen",
+    "icon": "📋",
+    "min_core_version": "1.9.2",
+    "dependencies": [],
+    "admin_handlers": ["handler_notizen.php"],
+    "admin_views": {
+        "team_notizen": "view_notizen.php"
+    },
+    "admin_nav": [
+        { "action": "team_notizen", "icon": "📋", "label_key": "nav_team_notizen", "position": 56 }
+    ],
+    "frontend_handlers": [],
+    "standalone_entrypoints": ["lmo-teaminfo.php"],
+    "frontend_views": {},
+    "templates_dir": "templates/",
+    "lang_dir": "lang/",
+    "db_tables": ["team_notizen", "team_trainer"],
+    "hooks": [
+        { "event": "team.deleted", "handler": "teamNotizenOnTeamDeleted", "priority": 10 }
+    ]
+}
