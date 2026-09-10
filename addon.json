@@ -3,7 +3,7 @@
     "version": "1.1.0",
     "type": "admin",
     "description": {
-        "de": "Team-Notizen: Gruendung, Stadion, Vereinsfarben, Erfolge, Infotext und Trainer-Historie pro Team pflegen und im Frontend anzeigen.",
+        "de": "Team-Notizen: Gründung, Stadion, Vereinsfarben, Erfolge, Infotext und Trainer-Historie pro Team pflegen und im Frontend anzeigen.",
         "en": "Team notes: founding, stadium, club colours, achievements, info text and coach history per team, with frontend display."
     },
     "author": "Torsten Hofmann",
