@@ -8,7 +8,7 @@
     },
     "author": "Torsten Hofmann",
     "license": "GPL-3.0-only",
-    "homepage": "https://github.com/webfalter/team-notizen",
+    "homepage": "https://github.com/henshingly/lmonext_addon-team-notizen",
     "icon": "📋",
     "min_core_version": "1.9.2",
     "dependencies": [],
